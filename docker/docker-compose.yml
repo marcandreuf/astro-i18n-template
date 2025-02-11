@@ -10,7 +10,7 @@ services:
     container_name: ai18n-template-dev-container
     user: node
     ports:
-      - "3005:3005"
+      - "3012:3012"
     volumes:
       - ../:/home/node/workspace:cached
       - ${HOME}/.local/share/pnpm:/home/node/.local/share/pnpm:cached
