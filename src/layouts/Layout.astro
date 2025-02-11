@@ -1,5 +1,15 @@
+---
+
+import { getLangFromUrl } from "../i18n/translations";
+
+
+const lang = getLangFromUrl(Astro.url);
+
+---
+
+
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
